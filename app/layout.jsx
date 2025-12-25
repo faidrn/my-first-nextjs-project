@@ -1,8 +1,9 @@
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-    title: 'Next.js My App',
-    description: 'A simple Next.js application',
+    title: 'Mi tienda con Next.js',
+    description: 'Esta es la página principal de mi tienda',
+    keywords: 'tienda, next.js, ecommerce, productos',
 }
 
 export default function RootLayout({ children }) {
