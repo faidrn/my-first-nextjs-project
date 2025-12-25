@@ -1,3 +1,12 @@
+"use client";
+
 export default function HomePage (){
-    return <h1>Hello World</h1>
+    return (
+        <section>
+            <h1>Hello World</h1>
+            <button onClick={() => {}}>
+                Click
+            </button>
+        </section>
+    );
 }
