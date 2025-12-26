@@ -1,4 +1,5 @@
 import PostCard from "@/components/PostCard"; // @ reemplaza la ruta ../../components/PostCard
+import './posts.css';
 
 // Peticion al backend - API
 async function loadPosts(){
@@ -17,7 +18,7 @@ async function PostPages() {
     const posts = await loadPosts();
 
     return (
-        <div>
+        <div className="grid">
             {posts.map(post => (
                 <PostCard key={post.id} post={post} />
             ))}
