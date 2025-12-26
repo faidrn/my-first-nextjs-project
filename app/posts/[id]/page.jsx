@@ -1,4 +1,4 @@
-import PostPages from "../page";
+import PostPages from "../page"; 
 import { Suspense } from "react";
 
 
