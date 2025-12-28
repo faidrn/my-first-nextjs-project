@@ -15,7 +15,10 @@ export async function GET() {
     return NextResponse.json(data);
 }
 
-export function POST(request) {
+export async function POST(request) {
+    const data = await request.json();
+    console.log(data);
+
     return NextResponse.json({
         message: "Creando datos!"
     });
